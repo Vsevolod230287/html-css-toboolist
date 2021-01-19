@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="master.css">
+  <title>Toboolist</title>
+</head>
+
+<body>
+  <!-- header: logo + testo Toboolist affianco -->
+  <div class="header">
+    <img class="logo_img" src="./img/Logo.png" alt="">
+    <span class="toboolist_text">Toboolist</span>
+  </div>
+
+
+
+  <!--Nav: con due bottoni(uno disabilitato) -->
+
+  <div class="navig_button container">
+    <button type="button" name="button">Add Task</button>
+    <button type="button" disabled>Add Section</button>
+  </div>
+
+
+
+  <!-- UN container contenente 3 liste -->
+  <div class="lists container">
+
+    <!-- lista1: lista non ordinata con <li> contenente un'altra {<ul> con uno solo <li>}-->
+    <ul class="main_ul">
+      <li class="first_li"><b>New Task</b>
+
+        <ul>
+          <li class="second_li">
+
+            <img class="check_img " src="./img/check-mark.png" alt="">
+
+            Quarterly Newsletter
+
+            <div class="editorial">
+              Editorial
+            </div>
+
+          </li>
+
+        </ul>
+
+      </li>
+
+    </ul>
+
+
+
+
+    <!-- lista2:lista non ordinata con <li> contenente un'altra {<ul> con 4 <li>}-->
+    <ul class="main_ul">
+      <li class="first_li"><b>Today</b>
+
+        <ul>
+          <li class="second_li">
+
+            <img class="check_img " src="./img/check-mark.png" alt="">
+
+            Mobile app luaunch
+
+            <div class="editorial">
+              Editorial
+            </div>
+
+          </li>
+
+
+
+          <!-- <li> 2 della seconda lista annidata -->
+          <li class="second_li">
+            <img class="check_img " src="./img/check-mark.png" alt="">
+            Interview John H.
+            <div class="editorial_1">
+              Q1 Goals
+            </div>
+          </li>
+
+          <!-- <li> 3 della seconda lista annidata -->
+          <li class="second_li">
+            <img class="cancel_img " src="./img/cancel.png" alt="">
+            Recruiting blog post
+            <div class="editorial_2">
+              Recruiting
+            </div>
+          </li>
+
+          <!-- <li> 4 della seconda lista annidata -->
+          <li class="second_li">
+
+            <img class="check_img " src="./img/check-mark.png" alt="">
+
+            Summit update to mobiile storefronts
+
+            <div class="editorial_3">
+              Mobile
+            </div>
+
+          </li>
+
+
+        </ul>
+        <!--il tag di chiusura della seconda lista annidata -->
+
+
+      </li>
+    </ul>
+
+
+    <!-- lista2:lista non ordinata con <li> contenente un'altra {<ul> con 4 <li>}-->
+    <ul class="main_ul">
+      <li class="first_li"><b>Upcoming</b>
+        <ul>
+
+          <li class="second_li">
+            <img class="cancel_img " src="./img/cancel.png" alt="">
+            Schedule meeting with Alex
+          </li>
+
+
+
+          <!-- <li> 2 della seconda lista annidata -->
+          <li class="second_li">
+            <img class="check_img " src="./img/check-mark.png" alt="">
+            Homepage refresh
+            <div class="editorial_4">
+              Website
+            </div>
+          </li>
+
+
+          <!-- <li> 3della seconda lista annidata -->
+          <li class="second_li">
+            <img class="check_img " src="./img/check-mark.png" alt="">
+            Onboard new Sales team members
+            <div class="editorial_3">
+              Sales
+            </div>
+          </li>
+
+          
+
+          <!-- <li> 4 della seconda lista annidata -->
+          <li class="second_li">
+            <img class="check_img " src="./img/check-mark.png" alt="">
+            Review editorial calendar
+            <div class="editorial">
+              Editorial
+            </div>
+          </li>
+        </ul>
+
+
+      </li>
+    </ul>
+
+
+  </div>
+
+
+</body>
+
+</html>
